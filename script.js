@@ -1,6 +1,6 @@
 var ball = document.getElementById("ball");
 var score = document.getElementById("score");
-
+var sonidoRebote = document.getElementById("sonidoRebote");
 var x = window.innerWidth / 2;
 var y = window.innerHeight / 2;
 var dx = 4; // Aumenta la velocidad en el eje x
@@ -30,6 +30,8 @@ function moveBall() {
 
 	window.requestAnimationFrame(moveBall);
 }
-
+sonidoRebote.
+son
+play();
 // Iniciar movimiento de la pelota
 moveBall();
